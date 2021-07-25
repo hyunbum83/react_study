@@ -15,6 +15,7 @@ function App() {
         <h3> { 글제목[0] } <span onClick={()=>{setCount(count++)}}>👍</span> {count} </h3>
         <p>2월 17일 발행</p>
         <hr/>
+        <p>hello {process.env.REACT_APP_NAME} 12233</p>
       </div>
       <Modal></Modal>
     </div>
